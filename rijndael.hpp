@@ -34,7 +34,7 @@
 #include "termcolor.hpp"
 
 
-class PredefinedArrays {
+class RijndaelPredefinedArrays {
 public:
 
     const static std::array<uint8_t, 256> s_box;
@@ -55,8 +55,6 @@ public:
     // 14t, t \in [0, 255] 的剩余系
     const static std::array<uint8_t, 256> mul14;
 };
-
-using pd = PredefinedArrays;
 
 // 密钥扩展
 class KeyExpansionHelper {
