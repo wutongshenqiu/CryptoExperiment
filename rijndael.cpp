@@ -181,14 +181,12 @@ const std::array<uint8_t, 256> pd::mul14 = {
 void KeyExpansionHelper::PrintKey() {
     std::cout << std::hex;
 
-    std::cout << termcolor::red;
     std::cout << "original key: ";
     PrintByteBuffer(original_key);
     std::cout << std::endl;
 
-    std::cout << termcolor::yellow << "===================================================================\n";
+    std::cout << "===================================================================\n";
 
-    std::cout << termcolor::cyan;
     std::cout << "expansion key: \n";
     for (auto i = 0; i != 11; i++) {
         std::cout << "key" << i << ": ";

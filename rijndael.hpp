@@ -30,9 +30,6 @@
 #include <iostream>
 #include <string>
 
-// for colorful output
-#include "termcolor.hpp"
-
 
 class RijndaelPredefinedArrays {
 public:
