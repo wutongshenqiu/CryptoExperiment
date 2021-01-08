@@ -5,8 +5,6 @@
 #ifndef SRC_RIJNDAEL_HPP
 #define SRC_RIJNDAEL_HPP
 
-#endif //SRC_RIJNDAEL_HPP
-
 
 // AES(Advanced Encryption Standard) or Rijndael 算法流程
 //      1. 轮密钥生成
@@ -111,3 +109,5 @@ public:
     std::array<uint8_t, 16> encrypt(std::array<uint8_t, 16> plaintext);
     std::array<uint8_t, 16> decrypt(std::array<uint8_t, 16> ciphertext);
 };
+
+#endif //SRC_RIJNDAEL_HPP

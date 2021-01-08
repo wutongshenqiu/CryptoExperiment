@@ -5,8 +5,6 @@
 #ifndef SRC_DES_HPP
 #define SRC_DES_HPP
 
-#endif //SRC_DES_HPP
-
 
 // DES(Data Encryption Standard) 算法流程
 //      1. 子密钥生成
@@ -135,3 +133,5 @@ public:
     const static std::array<int, 64> reverse_ip_table;
 
 };
+
+#endif //SRC_DES_HPP

@@ -5,8 +5,6 @@
 #ifndef SRC_UTILS_HPP
 #define SRC_UTILS_HPP
 
-#endif //SRC_UTILS_HPP
-
 #include <array>
 #include <cstdint>
 #include <iostream>
@@ -20,3 +18,5 @@ void PrintByteBuffer(const std::array<uint8_t, T> buffer) {
         std::cout << ByteToHexString(x) << " ";
     }
 }
+
+#endif //SRC_UTILS_HPP

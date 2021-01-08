@@ -17,8 +17,6 @@
 #ifndef SRC_ZUIC_HPP
 #define SRC_ZUIC_HPP
 
-#endif //SRC_ZUIC_HPP
-
 #include <iostream>
 #include <vector>
 #include <array>
@@ -149,3 +147,5 @@ public:
         return z;
     }
 };
+
+#endif //SRC_ZUIC_HPP
